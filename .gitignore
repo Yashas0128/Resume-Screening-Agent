@@ -1,0 +1,26 @@
+# Secrets - NEVER upload these!
+.env
+.env.local
+.env.*.local
+.sjson/
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
